@@ -1,0 +1,14 @@
+<%= simple_form_for @project do |f| %> 
+<%= f.input :name %> 
+<%= f.input :description %> 
+<h3>Tasks</h3> 
+<divid='tasks'> 
+    <%= f.simple_fields_for :tasksdo |task| %>
+    <%= render 'task_fields', :f => task %> 
+    <% end %> 
+    <divclass='links'> 
+        <%= link_to_add_association 'add task', f, :tasks %> 
+    </div>
+</div>
+<%= f.submit 'Save' %> 
+<% end %> 

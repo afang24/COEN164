@@ -1,0 +1,109 @@
+/* Login page */
+
+form.login {
+  font-family: Arial; 
+  font-size: 24px; 
+  font-color: #484848;
+}
+
+input {
+  border: 1px solid #007acc;
+  margin: 10px;
+  margin-right: 100px;
+}
+
+
+#loginButton {
+  margin-left: 220px;
+  font-size: 24px;
+  border: 1px solid #007acc;
+  background-color: #FFFFFF;
+}
+
+body {
+  outline: 2px blue;
+  font-family: Arial;
+  font-size: 14px;
+  font-color: #484848;
+}
+
+
+div.page {
+  padding: 1px;
+  font: Arial;
+}
+
+div.header {
+  background-color: #add8e6;
+  padding: 1px;
+  color: #484848; 
+}
+
+p {
+    margin: 1px;
+}
+
+label {
+    margin: 1px;
+}
+
+
+div.page {
+    width: 50%;
+}
+
+div.topLeft {
+  float: left;
+}
+
+div.topRight {
+  float: right;
+  border: 1px solid #007acc;
+  width: 33%;
+}
+
+div.bottom {
+  float: left;
+  width: 100%;
+}
+
+div.container {
+    border: 1px solid #007acc;
+}
+
+div.totals {
+  border: 1px solid #007acc;  
+  
+}
+
+.totals {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#submit {
+  background-color: #FFF;
+}
+
+#logout {
+  background-color: #FFF;
+  float: left;  
+}
+
+#betButton {
+  margin-left: 220px;
+  background-color: #FFF;
+}
+
+
+
